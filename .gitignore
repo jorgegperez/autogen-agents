@@ -1,3 +1,5 @@
+OPENAI_CONFIG_LIST.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -127,6 +129,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+.vscode
 
 # Spyder project settings
 .spyderproject
