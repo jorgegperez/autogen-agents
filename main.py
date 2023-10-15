@@ -1,13 +1,13 @@
 from fastapi import FastAPI
 from uvicorn import run
-from app.routes import mongo_agent
 from dotenv import load_dotenv
+from app.routes import mongo
 
 load_dotenv()
 
 app = FastAPI()
 
-app.include_router(mongo_agent.router, prefix="/agents/mongo", tags=["mongo_agent"])
+app.include_router(mongo.router, prefix="/mongo", tags=["mongo_agent"])
 
 
 @app.get("/")

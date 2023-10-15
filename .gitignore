@@ -1,4 +1,4 @@
-OPENAI_CONFIG_LIST.json
+setup.cfg
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
